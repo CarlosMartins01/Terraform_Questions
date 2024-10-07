@@ -491,12 +491,8 @@ A. Cloned virtual machine images<br>
 B. Change management database records<br>
 C. Versioned configuration files<br>
 D. Docker files<br>
-<br>
 
----
 
----
-<br>
 <br>**#191**<br>
 FILL BLANK -<br>
 You need to migrate a workspace to use a remote backend. After updating your configuration, what command do you run to perform the migration?
