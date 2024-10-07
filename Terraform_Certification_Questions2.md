@@ -1,8 +1,9 @@
 
 # Terraform - Simulado 2
 
+<br>
 
-<br>**#66**<br>
+###66
 All standard backend types support state storage, locking, and remote operations like plan, apply and destroy.<br>
 
 A. True<br>
