@@ -2,8 +2,9 @@
 
 # Terraform - Simulado 1
 
+<br>
 
-<br>**#1**<br>
+### 1
 The terraform.tfstate file always matches your currently built infrastructure.<br>
 
 A. True<br>
