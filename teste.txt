@@ -1,0 +1,66 @@
+#!/bin/bash
+
+cd ~/ai-on-gke/applications/rag/
+
+export TF_LOG=DEBUG
+#export TF_LOG_PATH=./rag_IAP_DEBUG_terraform_$(date +"%Y-%m-%d_%H-%M-%S").log
+export TF_LOG_PATH=/Users/carlos.martins/CarlosConfiguracoes/applications/rag/rag_IAP_DEBUG_destroy_terraform_mac_$(date +"%Y-%m-%d_%H-%M-%S").log
+
+start_time=$(date +%s)
+deploy_start=$(date +"%Y-%m-%d %H:%M:%S")
+echo $deploy_start >> $TF_LOG_PATH
+
+echo $start_time
+
+terraform workspace list
+
+terraform workspace select ragiap
+
+terraform workspace list
+
+terraform destroy -auto-approve --var-file=workloads.tfvars
+
+end_time=$(date +%s)
+
+elapsed_time=$((end_time - start_time))
+
+echo "Terraform destroy took $elapsed_time seconds.seconds" >> $TF_LOG_PATH 
+
+
+
+
+
+
+
+#!/bin/bash
+
+cd ~/ai-on-gke/applications/rag/
+
+export TF_LOG=DEBUG
+#export TF_LOG_PATH=./rag_IAP_DEBUG_terraform_$(date +"%Y-%m-%d_%H-%M-%S").log
+export TF_LOG_PATH=/Users/carlos.martins/CarlosConfiguracoes/applications/rag/rag_IAP_DEBUG_implement_terraform_mac_$(date +"%Y-%m-%d_%H-%M-%S").log
+
+start_time=$(date +%s)
+deploy_start=$(date +"%Y-%m-%d %H:%M:%S")
+echo $deploy_start >> $TF_LOG_PATH
+
+echo $start_time
+
+terraform workspace list
+
+terraform workspace select ragiap
+
+terraform workspace list
+
+echo $start_time >> $TF_LOG_PATH
+
+terraform apply -auto-approve --var-file=workloads.tfvars
+#terraform apply -parallelism=40 -auto-approve --var-file=workloads.tfvars
+
+end_time=$(date +%s)
+
+elapsed_time=$((end_time - start_time))
+
+echo "Terraform apply took $elapsed_time seconds.seconds"
+
+echo "Terraform apply took $elapsed_time seconds.seconds" >> $TF_LOG_PATH 
