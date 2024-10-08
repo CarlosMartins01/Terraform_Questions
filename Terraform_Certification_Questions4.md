@@ -3,10 +3,10 @@
 
 ### 196
 
-In a Terraform Cloud workspace linked to a version control repository, speculative plan runs start automatically when you merge or commit changes to version control.
+In a Terraform Cloud workspace linked to a version control repository, speculative plan runs start automatically when you merge or commit changes to version control.<br>
 
-A. True
-B. False
+A. True<br>
+B. False<br>
 
 <br>
 
