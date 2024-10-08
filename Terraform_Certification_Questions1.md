@@ -1,6 +1,4 @@
 
-<p style="text-align:center;">Text_content</p>
-
 # Terraform - Simulado 1
 
 ### 1
