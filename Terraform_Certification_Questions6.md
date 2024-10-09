@@ -6,7 +6,7 @@
 You can configure Terraform to log to a file using the TF_LOG environment variable.<br>
 
 A. True<br>
-B. False<br>
+**B**. False<br>
 
 <br>
 
@@ -15,7 +15,7 @@ B. False<br>
 When does Terraform create the .terraform.lock.hcl file?<br>
 
 A. After your first terraform plan<br>
-B. After your first terraform apply<br>
+**B**. After your first terraform apply<br>
 C. After your first terraform init<br>
 D. Whenever you enable state locking<br>
 
