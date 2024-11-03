@@ -136,9 +136,9 @@ C. Terraform will not make any changes<br>
 
 Which of these options is the most secure place to store secrets for connecting to a Terraform remote backend?<br>
 
-A. Defined in Environment variables<br>
+**A**. Defined in Environment variables<br>
 B. Inside the backend block within the Terraform configuration<br>
-**C**. Defined in a connection configuration outside of Terraform<br>
+C. Defined in a connection configuration outside of Terraform<br>
 D. None of above<br>
 
 The most secure place to store secrets for connecting to a Terraform remote backend is:<br>
