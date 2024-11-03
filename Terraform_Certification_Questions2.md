@@ -58,7 +58,7 @@ D. teat<br>
 You're building a CI/CD (continuous integration/ continuous delivery) pipeline and need to inject sensitive variables into your Terraform run.<br>
 How can you do this safely?<br>
 
-**A**. Pass variables to Terraform with a ג€"var flag<br>
+**A**. Pass variables to Terraform with a -var flag<br>
 B. Copy the sensitive variables into your Terraform code<br>
 C. Store the sensitive variables in a secure_vars.tf file<br>
 D. Store the sensitive variables as plain text in a source code repository<br>
