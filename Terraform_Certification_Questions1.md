@@ -338,10 +338,10 @@ D. **You apply failed due to a state lock**: Instead of using force-unlock right
 
 Terraform can import modules from a number of sources `" which of the following is not a valid source?<br>
 
-**A**. FTP server
-B. GitHub repository
-C. Local path
-D. Terraform Module Registry
+**A**. FTP server<br>
+B. GitHub repository<br>
+C. Local path<br>
+D. Terraform Module Registry<br>
 
 <br>
 
