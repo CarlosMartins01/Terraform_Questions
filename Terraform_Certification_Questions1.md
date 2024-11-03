@@ -638,7 +638,8 @@ So, the correct syntax for the ami argument in the aws_instance resource would b
 
 >hcl<br>
 >ami = data.aws_ami.ubuntu.id<br>
->Here’s why the other options are incorrect:<br>
+
+Here’s why the other options are incorrect:<br>
 
 A. **aws_ami.ubuntu**: This references the data source but does not access a specific attribute, such as id.<br>
 B. **data.aws_ami.ubuntu**: This references the data source, but you need to specifically access the id attribute.<br>
