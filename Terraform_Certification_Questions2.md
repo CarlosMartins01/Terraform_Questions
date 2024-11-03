@@ -525,6 +525,7 @@ A. Add node_count = var.node_count<br>
 B. Declare the variable in a terraform.tfvars file<br>
 **C**. Declare a node_count input variable for child module<br>
 D. Nothing, child modules inherit variables of parent module<br>
+
 C. Declare a node_count input variable for the child module<br>
 
 To pass an input variable from a parent module to a child module, you must declare the input variable in the child module's variables.tf file (or inline) and then pass the parent's variable when calling the child module in the configuration. For example:<br>
