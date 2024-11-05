@@ -36,7 +36,7 @@ D. list<br>
 You have used Terraform to create an ephemeral development environment in the cloud and are now ready to destroy all the infrastructure described by your Terraform configuration. To be safe, you would like to first see all the infrastructure that will be deleted by Terraform.<br>
 Which command should you use to show all of the resources that will be deleted? (Choose two.)<br>
 
-A. Run terraform plan -destroy<br>
+**A**. Run terraform plan -destroy<br>
 B. Run terraform show -destroy<br>
 **C**. Run terraform destroy and it will first output all the resources that will be deleted before prompting for approval<br>
 D. Run terraform show -destroy<br>
