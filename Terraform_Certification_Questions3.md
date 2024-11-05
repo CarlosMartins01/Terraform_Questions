@@ -144,7 +144,7 @@ provider "datadog" {
 }
 ```
 
-C.
+**C**.
 ```
 terraform {
   provider "aws" {
