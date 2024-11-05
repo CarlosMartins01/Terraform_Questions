@@ -26,7 +26,7 @@ Which Terraform collection type should you use to store key/value pairs?<br>
 
 A. tuple<br>
 B. set<br>
-C. maׁ€<br>
+C. maׁp<br>
 **D**. list<br>
 
 <br>
