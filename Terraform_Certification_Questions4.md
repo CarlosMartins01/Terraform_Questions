@@ -389,7 +389,7 @@ D. Before you start coding a new Terraform project<br>
 Terraform configuration (including any module references) can contain only one Terraform provider type.<br>
 
 A. True<br>
-B. Falsev<br>
+B. False<br>
 
 <br>
 
