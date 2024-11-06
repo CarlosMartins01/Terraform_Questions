@@ -17,7 +17,7 @@ You have some Terraform code and a variable definitions file named dev.auto.tfva
 Which two actions should you perform? (Choose two.)<br>
 
 A. Copy the existing terraform.tfstate file and save it as staging.terraform.tfstate<br>
-B. Write a new staging.auto.tfvars variable definition file and run Terraform with the var-file=”staging.auto.tfvars” flag<br>
+B. Write a new staging.auto.tfvars variable definition file and run Terraform with the -var-file=”staging.auto.tfvars” flag<br>
 C. Create a new Terraform workspace for staging<br>
 D. Create a new Terraform provider for staging<br>
 E. Add new Terraform code (*.tf files) for staging in the same directory<br>
