@@ -731,7 +731,7 @@ terraform {
 }
 ```
 
-A. You should not store credentials in Terraform Configuration<br>
+**A**. You should not store credentials in Terraform Configuration<br>
 B. You should use the local enhanced storage backend whenever possible<br>
 C. An alias meta-argument should be included in backend blocks whenever possible<br>
 D. The backend configuration should contain multiple credentials so that more than one user can execute terraform plan and terraform apply<br>
