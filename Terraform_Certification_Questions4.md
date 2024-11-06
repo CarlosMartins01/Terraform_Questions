@@ -48,9 +48,9 @@ B. False<br>
 
 Which of the following is the correct way to pass the value in the variable num_servers into a module with the input servers in HCL2?<br>
 
-A. servers - var.num_servers<br>
-B. servers - num_servers<br>
-C. servers - var(num_servers)<br>
+A. servers = var.num_servers<br>
+B. servers = num_servers<br>
+C. servers = var(num_servers)<br>
 D. $(var.num_servers)<br>
 
 
