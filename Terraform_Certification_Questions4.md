@@ -777,7 +777,7 @@ You add a new resource to an existing Terraform configuration, but do not update
 How will Terraform choose which version of the provider to use?<br>
 
 A. Terraform will use the latest version of the provider for the new resource and the version recorded in the lock file to manage existing resources<br>
-B. Terraform will use the version recorded in your lock file
+B. Terraform will use the version recorded in your lock file<br>
 C. Terraform will check your state file to determine the provider version to use<br>
 D. Terraform will use the latest version of the provider available at the time you provision your new resource<br>
 
