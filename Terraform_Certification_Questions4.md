@@ -356,7 +356,7 @@ resource "aws_instance" "web" {
 ```
 
 A. aws_instance[“web”][“indexing”]<br>
-B. aws_instance.web.indexing
+B. aws_instance.web.indexing<br>
 C. aws_instance-web[“indexing”]<br>
 D. aws_instance.web[“indexing”]<br>
 
