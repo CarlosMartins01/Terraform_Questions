@@ -5,8 +5,8 @@
 
 In a Terraform Cloud workspace linked to a version control repository, speculative plan runs start automatically when you merge or commit changes to version control.<br>
 
-**A**. True<br>
-B. False<br>
+A. True<br>
+**B**. False<br>
 
 <br>
 
@@ -17,8 +17,8 @@ You have some Terraform code and a variable definitions file named dev.auto.tfva
 Which two actions should you perform? (Choose two.)<br>
 
 A. Copy the existing terraform.tfstate file and save it as staging.terraform.tfstate<br>
-B. Write a new staging.auto.tfvars variable definition file and run Terraform with the -var-file=”staging.auto.tfvars” flag<br>
-C. Create a new Terraform workspace for staging<br>
+**B**. Write a new staging.auto.tfvars variable definition file and run Terraform with the -var-file=”staging.auto.tfvars” flag<br>
+**C**. Create a new Terraform workspace for staging<br>
 D. Create a new Terraform provider for staging<br>
 E. Add new Terraform code (*.tf files) for staging in the same directory<br>
 
@@ -29,7 +29,7 @@ E. Add new Terraform code (*.tf files) for staging in the same directory<br>
 The ________ determines how Terraform creates, updates, or deletes resources.<br>
 
 A. Terraform configuration<br>
-B. Terraform core<br>
+**B**. Terraform core<br>
 C. Terraform provider<br>
 D. Terraform provisioner<br>
 
@@ -40,7 +40,7 @@ D. Terraform provisioner<br>
 Terraform destroy is the only way to remove infrastructure.<br>
 
 A. True<br>
-B. False<br>
+**B**. False<br>
 
 <br>
 
@@ -48,7 +48,7 @@ B. False<br>
 
 Which of the following is the correct way to pass the value in the variable num_servers into a module with the input servers in HCL2?<br>
 
-A. servers = var.num_servers<br>
+**A**. servers = var.num_servers<br>
 B. servers = num_servers<br>
 C. servers = var(num_servers)<br>
 D. $(var.num_servers)<br>
@@ -61,7 +61,7 @@ D. $(var.num_servers)<br>
 Which of the fallowing commands would you use to access all of the attributes and details of a resource managed by Terraform?<br>
 
 A. terraform state list<br>
-B. terraform state show<br>
+**B**. terraform state show<br>
 C. terraform get<br>
 D. terraform state list<br>
 
@@ -83,7 +83,7 @@ resource "vsphere_folder" "parent" {
 A. data.dc.id<br>
 B. data.vsphere_datacenter.dc<br>
 C. vsphere_datacenter.dc.id<br>
-D. data.vsphere_datacenter.dc.id<br>
+**D**. data.vsphere_datacenter.dc.id<br>
 
 
 <br>
@@ -102,7 +102,7 @@ terraform {
 Which command will migrate your current state file to the new S3 remote backend?<br>
 
 A. terraform state<br>
-B. terraform init<br>
+**B**. terraform init<br>
 C. terraform refresh<br>
 D. terraform push<br>
 
@@ -115,7 +115,7 @@ You want to tag multiple resources with a string that is a combination of a gene
 
 How should you use the same value in all these resources without repeating the random_id and variable in each resource?<br>
 
-A. Local values<br>
+**A**. Local values<br>
 B. Data source<br>
 C. Modules<br>
 D. Outputs<br>
@@ -127,7 +127,7 @@ D. Outputs<br>
 
 Which of the following is not a benefit of adopting infrastructure as code?<br>
 
-A. Interpolation<br>
+**A**. Interpolation<br>
 B. Reusability of code<br>
 C. Versioning<br>
 D. Automation<br>
@@ -140,7 +140,7 @@ D. Automation<br>
 Module version is required to reference a module on the Terraform Module Registry.<br>
 
 A. True<br>
-B. False<br>
+**B**. False<br>
 
 
 <br>
@@ -151,7 +151,7 @@ While deploying a virtual machine, the first launch user_data script fails due t
 
 What is the least disruptive method to correct the issue?<br>
 
-A. Run terraform taint against the virtual machine’s resource name, then terraform apply<br>
+**A**. Run terraform taint against the virtual machine’s resource name, then terraform apply<br>
 B. Restart the virtual machine from the cloud portal<br>
 C. Run terraform apply again<br>
 D. Run terraform destroy then terraform apply<br>
@@ -163,7 +163,7 @@ D. Run terraform destroy then terraform apply<br>
 
 The public Module Registry is free to use.<br>
 
-A. True<br>
+**A**. True<br>
 B. False<br>
 
 
@@ -173,7 +173,7 @@ B. False<br>
 
 Both Terraform Cloud and Terraform Enterprise support policy as code (Sentinel).<br>
 
-A. True<br>
+**A**. True<br>
 B. False<br>
 
 
@@ -187,7 +187,7 @@ What Terraform feature would help you define the blocks using the values in a va
 
 A. Local values<br>
 B. Collection functions<br>
-C. Dynamic blocks<br>
+**C**. Dynamic blocks<br>
 D. Count arguments<br>
 
 
@@ -197,7 +197,7 @@ D. Count arguments<br>
 
 Which of the following module source paths does not specify a remote module?<br>
 
-A. source = “./modules/consul”<br>
+**A**. source = “./modules/consul”<br>
 B. source = “git@github.com:hashicorp/example.git”<br>
 C. source = “github.com/hashicorp/example”<br>
 D. source = “hashicorp/consul/aws”<br>
@@ -213,7 +213,7 @@ numcpus = [ 18, 3, 7, 11, 2 ]<br>
 
 What Terraform function could you use to select the largest number from the list?<br>
 
-A. max(numcpus)<br>
+**A**. max(numcpus)<br>
 B. ceil(numcpus)<br>
 C. top(numcpus)<br>
 D. high[numcpus]<br>
@@ -226,7 +226,7 @@ D. high[numcpus]<br>
 Variables declared within a module are accessible outside of the module.<br>
 
 A. True<br>
-B. False<br>
+**B**. False<br>
 
 <br>
 
@@ -236,7 +236,7 @@ Which of the following is not a valid Terraform variable type?<br>
 
 A. list<br>
 B. map<br>
-C. array<br>
+**C**. array<br>
 D. string<br>
 
 <br>
@@ -248,7 +248,7 @@ What is a key benefit of the Terraform state file?<br>
 A. A state file can be used to schedule recurring infrastructure tasks<br>
 B. A state file represents a source of truth for resources provisioned with a public cloud console<br>
 C. A state file represents the desired state expressed by the Terraform code files<br>
-D. A state file represents a source of truth for resources provisioned with Terraform<br>
+**D**. A state file represents a source of truth for resources provisioned with Terraform<br>
 
 <br>
 
@@ -257,7 +257,7 @@ D. A state file represents a source of truth for resources provisioned with Terr
 Which of these statements about Terraform Enterprise workspaces is false?<br>
 
 A. They can securely store cloud credentials<br>
-B. You must use the CLI to switch between workspaces<br>
+**B**. You must use the CLI to switch between workspaces<br>
 C. Plans and applies can be triggered via version control system integrations<br>
 D. They have role-based access controls<br>
 
@@ -267,7 +267,7 @@ D. They have role-based access controls<br>
 
 Define the purpose of state in Terraform.<br>
 
-A. State is used to map real world resources to your configuration and keep track of metadata<br>
+**A**. State is used to map real world resources to your configuration and keep track of metadata<br>
 B. State is a method of codifying the dependencies of related resources<br>
 C. State is used to enforce resource configurations that relate to compliance policies<br>
 D. State is used to store variables and quickly reuse existing code<br>
@@ -281,7 +281,7 @@ Which backend does the Terraform CLI use by default?<br>
 A. API<br>
 B. Remote<br>
 C. Terraform Cloud<br>
-D. Local<br>
+**D**. Local<br>
 E. HTTP<br>
 
 <br>
@@ -291,7 +291,7 @@ E. HTTP<br>
 Using the terraform state rm command against a resource will destroy it.<br>
 
 A. True<br>
-B. False<br>
+**B**. False<br>
 
 <br>
 
@@ -300,7 +300,7 @@ B. False<br>
 Which method for sharing Terraform configurations keeps them confidential within your organization, supports Terraform’s semantic version constraints, and provides a browsable directory?<br>
 
 A. Generic git repository<br>
-B. Terraform Cloud/Terraform Enterprise private module registry<br>
+**B**. Terraform Cloud/Terraform Enterprise private module registry<br>
 C. Public Terraform Module Registry<br>
 D. Subfolder within a workspace<br>
 
@@ -312,7 +312,7 @@ You are writing a child Terraform module which provisions an AWS instance. You w
 
 Which of these is the correct way to define the output value using HCL2?<br>
 
-A.
+**A**.
 ```
 output "instance_ip_addr" {
   value = aws_instance.main.private_ip
@@ -358,7 +358,7 @@ resource "aws_instance" "web" {
 A. aws_instance[“web”][“indexing”]<br>
 B. aws_instance.web.indexing<br>
 C. aws_instance-web[“indexing”]<br>
-D. aws_instance.web[“indexing”]<br>
+**D**. aws_instance.web[“indexing”]<br>
 
 <br>
 
@@ -368,7 +368,7 @@ Which feature is not included in Terraform Cloud’s free tier?<br>
 
 A. Workspace<br>
 B. Remote state management<br>
-C. Audit logging<br>
+**C**. Audit logging<br>
 D. Private module registry<br>
 
 <br>
@@ -379,7 +379,7 @@ When should you run terraform init?<br>
 
 A. After you run terraform apply for the first time in a new Terraform project and before you run terraform plan<br>
 B. After you run terraform plan for the first time in a new Terraform project and before you run terraform apply<br>
-C. After you start coding a new Terraform project and before you run terraform plan for the first time<br>
+**C**. After you start coding a new Terraform project and before you run terraform plan for the first time<br>
 D. Before you start coding a new Terraform project<br>
 
 <br>
@@ -389,7 +389,7 @@ D. Before you start coding a new Terraform project<br>
 Terraform configuration (including any module references) can contain only one Terraform provider type.<br>
 
 A. True<br>
-B. False<br>
+**B**. False<br>
 
 <br>
 
@@ -400,7 +400,7 @@ You are making changes to existing Terraform code to add some new infrastructure
 When is the best time to run terraform validate?<br>
 
 A. After you run terraform plan so you can validate that your state file is consistent with your infrastructure<br>
-B. Before you run terraform plan so you can validate your code syntax<br>
+**B**. Before you run terraform plan so you can validate your code syntax<br>
 C. Before you run terraform apply so you can validate your infrastructure changes<br>
 D. After you run terraform apply so you can validate that your infrastructure is reflected in your code<br>
 
@@ -413,7 +413,7 @@ How does Terraform manage most dependencies between resources?<br>
 A. By defining dependencies as modules and including them in a particular order<br>
 B. The order that resources appear in Terraform configuration indicates dependencies<br>
 C. Using the depends_on parameter<br>
-D. Terraform will automatically manage most resource dependencies<br>
+**D**. Terraform will automatically manage most resource dependencies<br>
 
 <br>
 
@@ -422,7 +422,7 @@ D. Terraform will automatically manage most resource dependencies<br>
 What does running a terraform plan do?<br>
 
 A. Imports all of your existing cloud provider resources to the state file<br>
-B. Compares the state file to your Terraform code and determines if any changes need to be made<br>
+**B**. Compares the state file to your Terraform code and determines if any changes need to be made<br>
 C. Imports all of your existing cloud provider resources to your Terraform configuration file<br>
 D. Compares your Terraform code and local state file to the remote state file in a cloud provider and determines if any changes need to be made<br>
 
@@ -432,7 +432,7 @@ D. Compares your Terraform code and local state file to the remote state file in
 
 What are some benefits of using Sentinel with Terraform Cloud/Terraform Enterprise? (Choose three.)<br>
 
-A. Policy-as-code can enforce security best practices<br>
+**A**. Policy-as-code can enforce security best practices<br>
 B. You can restrict specific configurations on resources like "CIDR=0.0.0.0/0" not allowed<br>
 C. You can enforce a list of approved AWS AMIs<br>
 D. Sentinel Policies can be written in HashiCorp Configuration Language (HCL)<br>
@@ -446,9 +446,9 @@ You want to share Terraform state with your team, store it securely, and provide
 
 How would you do this? (Choose three.)<br>
 
-A. Using the remote Terraform backend with Terraform Cloud / Terraform Enterprise.<br>
-B. Using the local backend.<br>
-C. Using the s3 terraform backend. The dynamodb_field option is not needed.<br>
+**A**. Using the remote Terraform backend with Terraform Cloud / Terraform Enterprise.<br>
+**B**. Using the local backend.<br>
+**C**. Using the s3 terraform backend. The dynamodb_field option is not needed.<br>
 D. Using an s3 terraform backend with an appropriate IAM policy and dynamodb_field option configured.<br>
 E. Using the consul Terraform backend.<br>
 
@@ -461,17 +461,17 @@ From which of these sources can Terraform import modules?<br>
 A. Local path<br>
 B. GitHub Repository<br>
 C. Terraform Module Registry<br>
-D. All of the above<br>
+**D**. All of the above<br>
 
 <br>
 
-### 232s
+### 232
 
 How would you output returned values from a child module?<br>
 
 A. Declare the output in the root configuration<br>
 B. Declare the output in the child module<br>
-C. Declare the output in both the root and child module<br>
+**C**. Declare the output in both the root and child module<br>
 D. None of the above<br>
 
 <br>
@@ -482,7 +482,7 @@ You have decided to create a new Terraform workspace to deploy a development env
 
 What is different about this workspace?<br>
 
-A. It has its own state file<br>
+**A**. It has its own state file<br>
 B. It pulls in a different terraform.tfvars file<br>
 C. It uses a different branch of code<br>
 D. It uses a different backend<br>
@@ -493,7 +493,7 @@ D. It uses a different backend<br>
 
 Any user can publish modules to the public Terraform Module Registry.<br>
 
-A. True<br>
+**A**. True<br>
 B. False<br>
 
 <br>
@@ -505,7 +505,7 @@ Which of these commands makes your code more human readable?<br>
 A. terraform validate<br>
 B. terraform output<br>
 C. terraform plan<br>
-D. terraform fmt<br>
+**D**. terraform fmt<br>
 
 <br>
 
@@ -513,7 +513,7 @@ D. terraform fmt<br>
 
 Infrastructure as Code (IaC) can be stored in a version control system along with application code.<br>
 
-A. True<br>
+**A**. True<br>
 B. False<br>
 
 <br>
@@ -525,7 +525,7 @@ Select the command that doesn’t cause Terraform to refresh its state.<br>
 A. terraform apply<br>
 B. terraform destroy<br>
 C. terraform plan<br>
-D. terraform state list<br>
+**D**. terraform state list<br>
 
 <br>
 
@@ -533,7 +533,7 @@ D. terraform state list<br>
 
 Sentinel policy-as-code is available in Terraform Enterprise.<br>
 
-A. True<br>
+**A**. True<br>
 B. False<br>
 
 <br>
@@ -542,7 +542,7 @@ B. False<br>
 
 Before you can use Terraform’s remote backend, you must first execute terraform init.<br>
 
-A. True<br>
+**A**. True<br>
 B. False<br>
 
 <br>
@@ -551,8 +551,8 @@ B. False<br>
 
 Which two steps are required to provision new infrastructure in the Terraform workflow? (Choose two.)<br>
 
-A. Plan<br>
-B. Apply<br>
+**A**. Plan<br>
+**B**. Apply<br>
 C. Import<br>
 D. Init<br>
 E. Validate<br>
@@ -566,7 +566,7 @@ You are working on some new application features and you want to spin up a copy 
 A. Terraform data sources<br>
 B. Terraform local values<br>
 C. Terraform modules<br>
-D. Terraform workspaces<br>
+**D**. Terraform workspaces<br>
 E. None of the above<br>
 
 <br>
@@ -577,7 +577,7 @@ Which provisioner invokes a process on the machine running Terraform?<br>
 
 A. remote-exec<br>
 B. file<br>
-C. local-exec<br>
+**C**. local-exec<br>
 D. null-exec<br>
 
 <br>
@@ -586,7 +586,7 @@ D. null-exec<br>
 
 ____________ backends support state locking.<br>
 
-A. Some<br>
+**A**. Some<br>
 B. No<br>
 C. Only local<br>
 D. All<br>
@@ -599,7 +599,7 @@ Which of the following methods, used to provision resources into a public cloud,
 
 A. curl commands manually run from a terminal<br>
 B. A sequence of REST requests you pass to a public cloud API endpoint<br>
-C. A script that contains a series of public cloud CLI commands<br>
+**C**. A script that contains a series of public cloud CLI commands<br>
 D. A series of commands you enter into a public cloud console<br>
 
 <br>
@@ -609,7 +609,7 @@ D. A series of commands you enter into a public cloud console<br>
 Which of the following should you put into the required_providers block?<br>
 
 A. version >= 3.1<br>
-B. version = “>= 3.1”<br>
+**B**. version = “>= 3.1”<br>
 C. version ~> 3.1<br>
 
 <br>
@@ -618,7 +618,7 @@ C. version ~> 3.1<br>
 
 When should you write Terraform configuration files for existing infrastructure that you want to start managing with Terraform?<br>
 
-A. Before you run terraform import<br>
+**A**. Before you run terraform import<br>
 B. You can import infrastructure without corresponding Terraform code<br>
 C. Terraform will generate the corresponding configuration files for you<br>
 D. After you run terraform import<br>
@@ -631,7 +631,7 @@ Which command should you run to check if all code in a Terraform configuration t
 
 A. terraform fmt -write=false<br>
 B. terraform fmt -list -recursive<br>
-C. terraform fmt -check -recursive<br>
+**C**. terraform fmt -check -recursive<br>
 D. terraform fmt -check<br>
 
 <br>
@@ -642,7 +642,7 @@ What features stops multiple users from operating on the Terraform state at the 
 
 A. Provider constraints<br>
 B. Remote backends<br>
-C. State locking<br>
+**C**. State locking<br>
 D. Version control<br>
 
 <br>
@@ -663,7 +663,7 @@ variable "billing_dept" {
   type = optional(string_)
 }
 ```
-C.
+**C**.
 ```
 variable "billing_dept" {
   default = ""
@@ -683,7 +683,7 @@ variable "billing_dept" {
 Which of these are secure options for storing secrets for connecting to a Terraform remote backend? (Choose two.)<br>
 
 A. Inside the backend block within the Terraform configuration<br>
-B. Defined in Environment variables<br>
+**B**. Defined in Environment variables<br>
 C. Defined in a connection configuration outside of Terraform<br>
 D. A variable file<br>
 
@@ -696,7 +696,7 @@ You want to define a single input variable to capture configuration values for a
 Which variable type could you use for this input?<br>
 
 A. List<br>
-B. Object<br>
+**B**. Object<br>
 C. Map<br>
 D. Terraform does not support complex input variables of different types<br>
 
@@ -708,7 +708,7 @@ What does Terraform not reference when running a terraform apply -refresh-only?<
 
 A. Credentials<br>
 B. State file<br>
-C. Terraform resource definitions in configuration files<br>
+**C**. Terraform resource definitions in configuration files<br>
 D. Cloud provider<br>
 
 <br>
@@ -717,7 +717,7 @@ D. Cloud provider<br>
 
 Multiple team members are collaborating on infrastructure using Terraform and want to format their Terraform code following standard Terraform-style convention. How could they automatically ensure the code satisfies conventions?<br>
 
-A. Run the terraform fmt command during the code linting phase of your CI/CD process<br>
+**A**. Run the terraform fmt command during the code linting phase of your CI/CD process<br>
 B. Manually apply two spaces indentation and align equal sign "=" characters in every Terraform file (*.tf)<br>
 C. Run the terraform validate command prior to executing terraform plan or terraform apply<br>
 
@@ -730,7 +730,7 @@ When using a remote backend or Terraform Cloud integration, where does Terraform
 A. On the disk<br>
 B. In memory<br>
 C. In an environment variable<br>
-D. In the remote backend or Terraform Cloud<br>
+**D**. In the remote backend or Terraform Cloud<br>
 
 <br>
 
@@ -745,7 +745,7 @@ A.
   age  = fifty two
 }
 ```
-B.
+**B**.
 ```
 {
   name = "John"
@@ -777,7 +777,7 @@ You add a new resource to an existing Terraform configuration, but do not update
 How will Terraform choose which version of the provider to use?<br>
 
 A. Terraform will use the latest version of the provider for the new resource and the version recorded in the lock file to manage existing resources<br>
-B. Terraform will use the version recorded in your lock file<br>
+**B**. Terraform will use the version recorded in your lock file<br>
 C. Terraform will check your state file to determine the provider version to use<br>
 D. Terraform will use the latest version of the provider available at the time you provision your new resource<br>
 
@@ -788,7 +788,7 @@ D. Terraform will use the latest version of the provider available at the time y
 You must use different Terraform commands depending on the cloud provider you use.<br>
 
 A. True<br>
-B. False<br>
+**B**. False<br>
 
 <br>
 
@@ -799,7 +799,7 @@ Define the purpose of state in Terraform.<br>
 A. State stores variables and lets you quickly reuse existing code<br>
 B. State lets you enforce resource configurations that relate to compliance policies<br>
 C. State codifies the dependencies of related resources<br>
-D. State maps real world resources to your configuration and keeps track of metadata<br>
+**D**. State maps real world resources to your configuration and keeps track of metadata<br>
 
 <br>
 
@@ -809,7 +809,7 @@ Which of these actions will prevent two Terraform runs from changing the same st
 
 A. Refresh the state after running Terraform<br>
 B. Delete the state before running Terraform<br>
-C. Configure state locking for your state backend<br>
+**C**. Configure state locking for your state backend<br>
 D. Run Terraform with parallelism set to 1<br>
 
 <br>
@@ -820,7 +820,7 @@ While attempting to deploy resources into your cloud provider using Terraform, y
 
 A. TF_LOG_PATH<br>
 B. TF_VAR_log_level<br>
-C. TF_LOG<br>
+**C**. TF_LOG<br>
 D. TF_VAR_log_path<br>
 
 <br>
