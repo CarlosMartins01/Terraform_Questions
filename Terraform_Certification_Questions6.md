@@ -69,7 +69,7 @@ B. False<br>
 
 ### 332
 ```
-resource "googlt_compute_instance" "main" {
+resource "google_compute_instance" "main" {
   name = "test"
 }
 ```
