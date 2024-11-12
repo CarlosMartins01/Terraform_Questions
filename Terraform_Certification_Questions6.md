@@ -167,7 +167,7 @@ B. False<br>
 
 What is the Terraform resource name of the following resource block?<br>
 ```
-mainresource "google_compute_instance" "main" {
+resource "google_compute_instance" "main" {
   name = "test"
 }
 ```
