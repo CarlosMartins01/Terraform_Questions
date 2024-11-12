@@ -14,9 +14,9 @@ D. A catalog of approved resources can be accessed from drop down lists in a req
 ### 132
 Which of the following statements about Terraform modules is not true?<br>
 
-A. Modules must be publicly accessible<br>
+**A**. Modules must be publicly accessible<br>
 B. Modules can be called multiple times<br>
-**C**. Module is a container for one or more resources<br>
+C. Module is a container for one or more resources<br>
 D. Modules can call other modules<br>
  
 <br>
