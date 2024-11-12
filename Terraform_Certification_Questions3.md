@@ -340,8 +340,8 @@ Which of the following statements about local modules is incorrect?<br>
 
 A. Local modules are not cached by terraform init command<br>
 B. Local modules are sourced from a directory on disk<br>
-C. Local modules support versions<br>
-**D**. All of the above (all statements above are incorrect)<br>
+**C**. Local modules support versions<br>
+D. All of the above (all statements above are incorrect)<br>
 E. None of the above (all statements above are correct)<br>
 
 
